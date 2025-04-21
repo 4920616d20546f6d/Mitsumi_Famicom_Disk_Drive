@@ -1,0 +1,190 @@
+(footprint "pinHeader_2mm_5pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "CN"
+		(at 3.75 -4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0f99e480-cdf6-4e55-a4b8-363dee7e4338")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HEAD"
+		(at 3.5 -2.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6c79f7cb-e9d2-446a-9905-84667f1d9ec1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b390bbe8-62ed-4c3f-a970-201fc34772a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ddcc5e6-6998-4676-82d9-dbe83ca2e242")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.25 1.5)
+		(end 8.25 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0c8cfd84-ae78-4ef5-9a08-f056c28dbb81")
+	)
+	(fp_line
+		(start -0.25 2.25)
+		(end -0.25 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6acabf80-24eb-45cd-b476-99a40ce3b781")
+	)
+	(fp_line
+		(start 8.25 2.25)
+		(end 8.25 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a6d1daf-d8b9-4322-b783-09ac221cf408")
+	)
+	(fp_rect
+		(start -1 -2.25)
+		(end 9 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "86d6f61b-d83d-4875-a1d3-6038eb5757bb")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -2.25) (xy -0.5 -3.25) (xy 0.5 -3.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "959db85c-e931-44e3-b36b-1f526c99da76")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.5 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "01fb0b28-a334-47e7-a52d-4945bf5b631a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.05)
+		(uuid "bec986cc-9516-4a51-8461-090b8bf7787d")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2 0)
+		(size 1.5 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "cc92497b-0c89-4d30-96ac-efef5e27fd9e")
+	)
+	(pad "3" thru_hole roundrect
+		(at 4 0)
+		(size 1.5 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "df744ee2-3dc8-45f6-a640-761f6fcd01bb")
+	)
+	(pad "4" thru_hole roundrect
+		(at 6 0)
+		(size 1.5 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "7b8252a1-19cf-4dda-a9d2-8b1a8d9d6433")
+	)
+	(pad "5" thru_hole roundrect
+		(at 8 0)
+		(size 1.5 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(uuid "7a315135-baa1-4ac4-a97a-8a2cffa62fe0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Nintendo.pretty/5pin_2mm_header-body.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Nintendo.pretty/5pin_2mm_header-pins.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

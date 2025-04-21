@@ -1,0 +1,152 @@
+(footprint "switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c850b621-3801-43e8-9b50-aa39eac6b5ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "switch"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fe6d7f3c-717c-4da0-8568-38efede461f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd79b859-544f-4563-bd7e-8c96e998d1d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5665d7bf-3894-45f7-ae08-6ef9491391e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.5 0)
+		(end 3.5 16.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "287c7499-908e-4034-9e1b-f21cc7649646")
+	)
+	(fp_rect
+		(start -3 0.5)
+		(end 3 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8b6096f6-e883-4828-9670-36d12f2621c3")
+	)
+	(fp_rect
+		(start -3 13)
+		(end 3 15.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "9b83ee62-45d2-455b-a159-3e1667021a58")
+	)
+	(fp_rect
+		(start -1.5 5.5)
+		(end 1.5 11.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "43a5409c-9f86-45cb-abdc-624a8c83bc5d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.5 8 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5508a2de-28b8-4125-b422-355d57a61152")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.5 7)
+		(size 2 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(clearance 0)
+		(thermal_bridge_angle 45)
+		(uuid "8f4c8e1f-bb4b-4521-b64f-167a1191d937")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 8.5)
+		(size 2 1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(clearance 0)
+		(thermal_bridge_angle 45)
+		(uuid "de0cff23-03c3-4f48-992b-6a41aadc9680")
+	)
+	(pad "3" smd roundrect
+		(at 0 12.25)
+		(size 3 1.5)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(clearance 0)
+		(thermal_bridge_angle 45)
+		(uuid "4f740f32-d58a-4803-ab72-f36d0daa370e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Nintendo.pretty/FDS_Switch_long.step"
+		(offset
+			(xyz 0 0.375 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

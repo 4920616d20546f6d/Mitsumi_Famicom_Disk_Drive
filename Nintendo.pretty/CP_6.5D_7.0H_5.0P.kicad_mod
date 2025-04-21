@@ -1,0 +1,139 @@
+(footprint "CP_6.5D_7.0H_5.0P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "C"
+		(at 2.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f56afc4e-9b47-4bc9-907b-d7c8031761b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "74aa104f-283a-4a7f-8b06-bceeca61cd45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ac333dc-6d83-4fe8-b02a-2c293ba1d8bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aafd98e5-be96-443b-b5a0-a44790246d44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1 -3)
+		(end 0 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "761e76e5-7501-4d31-8ec9-b72b5a809d81")
+	)
+	(fp_line
+		(start -0.5 -3.5)
+		(end -0.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6dcab2ae-0632-45d5-9c5f-554f62454729")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a4dcef95-a28f-4acf-ad23-8337aab2d146")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end -0.75 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f6c3b81c-4277-4d28-aeb8-8824c9ffbfed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.75 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f6f1c32f-f196-4ab8-aad8-639eb0ab54af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1e2a642-4728-4717-9b74-9cf51c3f2be5")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82c1d173-55a0-43fd-b2db-0a2e5321bf34")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
+		(offset
+			(xyz 1.25 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
